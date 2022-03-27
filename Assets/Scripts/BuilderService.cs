@@ -9,7 +9,7 @@ namespace BuildAgent
 {
     public class BuilderService
     {
-        private static readonly string OutputProjectsFolder = "../../Build/";
+        private static readonly string OutputProjectsFolder = "../../Build";
     
         static void BuildAndroid()
         {
